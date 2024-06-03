@@ -23,6 +23,7 @@ class text_section_product extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
+      reverse: true,
       child: Padding(
         padding: const EdgeInsets.only(top: 280.0),
         child: Container(

@@ -49,8 +49,7 @@ class Support_info_details extends StatelessWidget {
               }
             },
             child: ListTile(
-              contentPadding:
-                  EdgeInsets.symmetric(vertical: -20.0, horizontal: 16.0),
+              contentPadding: EdgeInsets.symmetric(vertical: -20.0, horizontal: 16.0),
               leading: Image.asset(
                 supportimagepath[index],
                 width: 25,

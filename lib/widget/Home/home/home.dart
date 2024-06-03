@@ -26,8 +26,8 @@ class _Homepage1State extends State<Homepage1> {
         leadingWidth: 50,
         title: Text("uickMart"),
         titleSpacing: 0,
-        titleTextStyle: TextStyle(
-            fontWeight: FontWeight.bold, color: Colors.black, fontSize: 25),
+        titleTextStyle:
+            TextStyle(fontWeight: FontWeight.bold, color: Colors.black, fontSize: 25),
         actions: [
           Icon(
             Icons.search,

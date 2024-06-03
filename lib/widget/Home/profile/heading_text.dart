@@ -35,7 +35,10 @@ class support_info_text extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 14.0),
+      padding: const EdgeInsets.only(
+        left: 14.0,
+        top: 20,
+      ),
       child: Text(
         "Support & Information",
         style: TextStyle(

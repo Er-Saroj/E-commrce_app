@@ -36,8 +36,8 @@ class _ReadMoreTextState extends State<ReadMoreText> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text.rich(
-            TextSpan(
+          RichText(
+            text: TextSpan(
               text: firstPart,
               style: widget.style,
               children: <TextSpan>[
