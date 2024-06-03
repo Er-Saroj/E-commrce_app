@@ -49,7 +49,7 @@ class Name_profile extends StatelessWidget {
                 InkWell(
                   onTap: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Login_page()));
+                        MaterialPageRoute(builder: (context) => LoginPage()));
                   },
                   child: Image.asset(
                     "assert/logo/logout.png",
