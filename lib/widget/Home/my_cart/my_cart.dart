@@ -74,18 +74,15 @@ class _MyCartState extends State<MyCart> {
                         SizedBox(
                           width: 160,
                           child: Padding(
-                            padding: const EdgeInsets.only(
-                                left: 8.0, top: 16, right: 16),
+                            padding: const EdgeInsets.only(left: 8.0, top: 16, right: 16),
                             child: Text(
                               "Loop Silicone Strong Magnetic Watch",
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w500, fontSize: 14),
+                              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 14),
                             ),
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(
-                              left: 8.0, top: 4, bottom: 4),
+                          padding: const EdgeInsets.only(left: 8.0, top: 4, bottom: 4),
                           child: SizedBox(
                             width: 52,
                             child: RichText(
@@ -93,13 +90,11 @@ class _MyCartState extends State<MyCart> {
                                 children: [
                                   TextSpan(
                                     text: "\$15.25",
-                                    style: TextStyle(
-                                        color: Colors.black, fontSize: 11),
+                                    style: TextStyle(color: Colors.black, fontSize: 11),
                                   ),
                                   TextSpan(
                                     text: " \$20.00",
-                                    style: TextStyle(
-                                        color: Colors.black54, fontSize: 11),
+                                    style: TextStyle(color: Colors.black54, fontSize: 11),
                                   ),
                                 ],
                               ),
@@ -113,7 +108,7 @@ class _MyCartState extends State<MyCart> {
                       ],
                     ),
                     SizedBox(
-                      width: 25,
+                      width: 10,
                     ),
                     Column(
                       children: [

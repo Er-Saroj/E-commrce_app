@@ -29,8 +29,7 @@ class Onboarding_3 extends StatelessWidget {
                         child: Text(
                           "Unlock exclusive offers and discounts",
                           textAlign: TextAlign.center,
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold, fontSize: 27),
+                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 27),
                         ),
                       ),
                       Padding(

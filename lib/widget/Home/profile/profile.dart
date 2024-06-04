@@ -64,10 +64,8 @@ class _ProfileState extends State<Profile> {
                     height: 48,
                     child: InkWell(
                       onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => Change_Pass()));
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => Change_Pass()));
                       },
                       child: ListTile(
                           leading: Image.asset(
@@ -78,8 +76,7 @@ class _ProfileState extends State<Profile> {
                           title: Text(
                             "Change Password",
                             style: TextStyle(
-                              color:
-                                  _isSwitched ? Colors.white : Colors.black54,
+                              color: _isSwitched ? Colors.white : Colors.black54,
                             ),
                           ),
                           trailing: Icon(

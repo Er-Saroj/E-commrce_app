@@ -23,7 +23,7 @@ class _Product_detailsState extends State<Product_details> {
   int myslidindex = 0;
 
   shareimage() async {
-    // ignore: unused_local_variable
+    // _local_variable
     XFile? Image = await ImagePicker().pickImage(source: ImageSource.camera);
     // ignore: unnecessary_null_comparison
     if (imagelist == null) return;
