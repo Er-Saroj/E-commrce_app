@@ -40,8 +40,11 @@ class _Homepage1State extends State<Homepage1> {
               width: 45,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(10),
-                child: Image.network(
-                    "https://media.istockphoto.com/id/1319085053/photo/good-looking-blonde-woman-having-tea-and-looking-balanced.jpg?s=1024x1024&w=is&k=20&c=sXczI7XB5sJUEZoQIhvJ6cyC8m4C0s38jw3KI1UkeAc="),
+                child: InkWell(
+                  onTap: () {},
+                  child: Image.network(
+                      "https://media.istockphoto.com/id/1319085053/photo/good-looking-blonde-woman-having-tea-and-looking-balanced.jpg?s=1024x1024&w=is&k=20&c=sXczI7XB5sJUEZoQIhvJ6cyC8m4C0s38jw3KI1UkeAc="),
+                ),
               ),
             ),
           )

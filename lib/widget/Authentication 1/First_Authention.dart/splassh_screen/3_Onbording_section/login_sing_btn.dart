@@ -22,7 +22,7 @@ class Button_section3 extends StatelessWidget {
             child: ElevatedButton(
               onPressed: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Login_page()));
+                    MaterialPageRoute(builder: (context) => LoginPage()));
               },
               style: ButtonStyle(
                 backgroundColor: WidgetStateProperty.all(Colors.white),
